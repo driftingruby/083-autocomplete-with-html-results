@@ -1,0 +1,9 @@
+<div class='product'>
+  <%= product.name %>
+  <% product.rating.times do |rate| %>
+    <%= image_tag('star.png') %>
+  <% end %>
+  <div class='description'>
+    <%= product.description %>
+  </div>
+</div>
